@@ -1,0 +1,146 @@
+
+
+:root {
+  --color-uno: #0a63e9;
+  --color-dos: #a1e3d8;
+  --color-tres: #4899e4;
+  --color-cuatro: #edf7fc;
+}
+
+.item1 {
+  grid-area: header;
+  background-color: var(--color-tres);
+  text-align: right;
+  padding: 1%;
+}
+
+.item2 {
+  grid-area: menu;
+  background-color: var(--color-uno);
+  color: var(--color-dos);
+}
+
+.item4 {
+  grid-area: main;
+  list-style: none;
+}
+.item4 li {
+  list-style: none;
+}
+.item4 a {
+  text-decoration: none;
+  color: var(--color-uno);
+  padding: 3%;
+}
+
+.item4 a:hover {
+ color: rgb(20, 35, 51);
+}
+
+.item5 {
+  grid-area: footer;
+  background-color: var(--color-tres);
+  text-align: center;
+  color: var(--color-cuatro);
+  font-size: 2vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    " menu main"
+    "footer footer";
+}
+
+body {
+  background-color: var(--color-cuatro);
+  color: var(--color-uno);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "menu"
+      " main"
+      "footer";
+  }
+  .item1 img {
+    width: 4vw;
+   padding: 2%;
+  }
+
+  .item2 p {
+    padding-left: 6%;
+  }
+  .item2 img {
+    width: 20vw;
+    border-radius: 50%;
+    padding-top: 3%;
+  }
+
+  .item4 li {
+    padding: 2%;
+  }
+  .item2 img {
+    margin-left: 40%;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+
+  body{
+    font-size: 1.5vw;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      " menu main"
+      "footer footer";
+  }
+  .item1 img {
+    width: 5vw;
+grid-gap: 5px;
+  }
+
+  .item2{
+    width: 25vw;
+    margin-left: 9%;
+  }
+
+
+  .item2 p {
+    padding-left: 8%;
+  }
+
+ .item2 img{
+border-radius: 50%;
+width: 11vw;
+margin-left: 30%;
+margin-top: 3%;
+ }
+
+
+.item3 img{
+width: 400Vw;
+}
+.item4 li {
+  padding: 2%;
+}
+
+.item4 {
+  margin-top: 10%;
+}
+}
