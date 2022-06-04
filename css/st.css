@@ -18,26 +18,29 @@
   grid-area: menu;
   background-color: var(--color-uno);
   color: var(--color-dos);
+  
 }
 
-.item4 {
+.item3 {
   grid-area: main;
   list-style: none;
-}
-.item4 li {
+  display: flex;
+ }
+ 
+.item3 li {
   list-style: none;
 }
-.item4 a {
+.item3 a {
   text-decoration: none;
   color: var(--color-uno);
-  padding: 3%;
+ 
 }
 
-.item4 a:hover {
+.item3 a:hover {
  color: rgb(20, 35, 51);
 }
 
-.item5 {
+.item4 {
   grid-area: footer;
   background-color: var(--color-tres);
   text-align: center;
@@ -86,12 +89,7 @@ h1 {
     padding-top: 3%;
   }
 
-  .item4 li {
-    padding: 2%;
-  }
-  .item2 img {
-    margin-left: 40%;
-  }
+
 }
 
 
@@ -132,15 +130,19 @@ margin-left: 30%;
 margin-top: 3%;
  }
 
+ .item3 img {
+   margin-top: 10%;
+   width: 20vw;
+   height: 15vw;
+ }
+ .item3 ul {
+  margin: 5%;
 
-.item3 img{
-width: 400Vw;
+  
 }
-.item4 li {
-  padding: 2%;
+.item3 li {
+  margin: 5%;
+  
 }
 
-.item4 {
-  margin-top: 10%;
-}
 }
