@@ -191,7 +191,11 @@ h1 {
 .item4{
   font-size: 3vw;
 }
+.item4 img {
+  width: 5vw;
+  padding: 2%;
 
+}
 }
 
 
@@ -254,6 +258,10 @@ margin-top: 3%;
 .item3 li {
   margin: 5%;
   
+}
+.item4 img {
+  width: 5vw;
+  padding: 2%;
 }
 .item5 img{
   width: 400px;
