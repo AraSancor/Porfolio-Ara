@@ -10,6 +10,9 @@
 	margin:0;
 	padding:0;
 }
+body{
+  opacity: 0.9;
+}
 .item1 {
   grid-area: header;
   background-color: var(--color-tres);
@@ -29,7 +32,7 @@
 .item3 {
   grid-area: main;
   list-style: none;
-  display: flex;
+  
  }
  
 .item3 li {
