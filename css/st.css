@@ -153,7 +153,7 @@ h1 {
   text-align: center;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 1200px) {
+@media only screen and (min-width: 150px) and (max-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -191,6 +191,11 @@ h1 {
   .item3 {
     display: block;
   }
+  .div3p{
+    text-align: justify;
+    width: 80vw;
+    padding: 3%;
+  }
   
   .item3 ul {
     margin-left: 3%;
@@ -210,6 +215,9 @@ h1 {
   width: 5vw;
   padding: 2%;
 
+}
+.item5 {
+  display: block;
 }
 .item5 ul {
   margin-left: 3%;
