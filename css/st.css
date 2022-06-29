@@ -179,8 +179,8 @@ h1 {
   }
 
   .item2 p {
-    padding-left: 6%;
-    margin: 5%;
+    padding-left: 3%;
+    margin: 2%;
   }
   .item2 img {
     width: 33vw;
@@ -206,6 +206,21 @@ h1 {
   .item3 img {
     width: 80vw;
     margin-left: 3%;
+  }
+
+  .cnt img{
+    margin: 3%;
+    width: 10vw;
+    height: 8vw;
+    padding: 3%;
+  }
+  .cnt{
+    background-color: var(--color-dos);
+  }
+  .cnt h3{
+    margin: 3%;
+    padding: 3%;
+  
   }
 .item4{
   font-size: 3vw;
@@ -247,6 +262,7 @@ iframe{
 @media only screen and (min-width: 1201px) and (max-width: 3800px) {
 
   body{
+    
     font-size: 1.5vw;
   }
 
@@ -278,7 +294,7 @@ grid-gap: 5px;
 
 
   .item2 p {
-    padding-left: 8%;
+    padding: 5%;
   }
 
  .item2 img{
@@ -299,8 +315,18 @@ margin-top: 3%;
  }
  .item3 ul {
   margin: 5%;
-
   
+}
+
+.cnt img{
+  margin: 0;
+  width: 8vw;
+  height: 5vw;
+  padding: 3%;
+}
+.cnt h3{
+  padding: 3%;
+
 }
 .item3 li {
   margin: 5%;
@@ -334,6 +360,9 @@ margin-top: 3%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2vw; 
 
+}
+iframe{
+  height: 20vw;
 }
 
 
