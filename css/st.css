@@ -191,15 +191,16 @@ h1 {
   .item3 {
     display: block;
   }
+  
   .item3 ul {
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .item3 li{
-    padding: 3%;
+    padding: 1%;
   }
   .item3 img {
-    width: 85vw;
-    margin-left: 8%;
+    width: 80vw;
+    margin-left: 3%;
   }
 .item4{
   font-size: 3vw;
@@ -211,10 +212,14 @@ h1 {
 
 }
 .item5 ul {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .item5 li{
   padding: 3%;
+}
+.item5 img {
+  width: 80vw;
+  margin-left: 3%;
 }
 
 iframe{
@@ -274,7 +279,11 @@ width: 11vw;
 margin-left: 30%;
 margin-top: 3%;
  }
-
+ .div3p{
+  text-align: justify;
+  width: 30vw;
+  padding: 3%;
+}
  .item3 img {
    margin-top: 10%;
    width: 20vw;
