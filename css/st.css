@@ -339,8 +339,9 @@ margin-top: 3%;
   
 }
 .item3 p{
-  width: 38vw;
+  width: 33vw;
   text-align: justify;
+  padding:  5%;
 }
 .item4 img {
   width: 5vw;
