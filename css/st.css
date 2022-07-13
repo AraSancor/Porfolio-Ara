@@ -13,6 +13,12 @@
 }
 body{
   opacity: 0.9;
+  background-image: url("../img/Ara.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .item1 {
   grid-area: header;
@@ -24,14 +30,14 @@ body{
 
 .item2 {
   grid-area: aside;
-
+color: var(--color-cinco);
   
 }
 
 .item3 {
   grid-area: main;
   list-style: none;
-  
+  color: var(--color-cinco);
  }
  
 .item3 li {
