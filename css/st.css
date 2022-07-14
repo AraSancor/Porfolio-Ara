@@ -13,13 +13,17 @@
 }
 body{
   opacity: 0.9;
+  background-color: var(--color-cuatro);
   background-image: url("../img/Ara.jpg");
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  color: var(--color-uno);
+  font-family: sans-serif;
+height: 100%;
 }
+
 .item1 {
   grid-area: header;
   padding: 1%;
@@ -152,17 +156,14 @@ img {vertical-align: middle;}
   "footer footer footer";
 }
 
-body {
-  background-color: var(--color-cuatro);
-  color: var(--color-uno);
-  font-family: sans-serif;
-}
+
 
 h1 {
   text-align: center;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 1200px) {
+ 
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -197,6 +198,7 @@ h1 {
   }
   .item3 {
     display: block;
+    color: var(--color-cuatro);
   }
   .div3p{
     text-align: justify;
