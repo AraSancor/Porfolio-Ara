@@ -221,6 +221,12 @@ h1 {
   width: 80vw;
   text-align: justify;
 }
+.item3 p:hover {
+  background-color: var(--color-cuatro);
+  color: var(--color-uno);
+  cursor: pointer;
+  opacity: 0.7;
+}
   .cnt img{
     margin: 3%;
     width: 10vw;
@@ -243,6 +249,9 @@ h1 {
   width: 5vw;
   padding: 2%;
 
+}
+.item3 h4, .item5 h4{
+  padding: 5%;
 }
 
 .item5 {
@@ -353,6 +362,11 @@ grid-gap: 5px;
     padding: 5%;
     width: 18vw;
   }
+ .item2 p:hover {
+  background-color: var(--color-cuatro);
+    cursor: pointer;
+    opacity: 0.7;
+  }
 
  .item2 img{
 border-radius: 50%;
@@ -365,6 +379,11 @@ margin-top: 3%;
   width: 30vw;
   padding: 3%;
 }
+.item3 p:hover,  h3:hover, h2:hover {
+  background-color: var(--color-cuatro);
+  cursor: pointer;
+  opacity: 0.7;
+}
  .item3 img {
    margin-top: 10%;
    width: 20vw;
@@ -373,6 +392,9 @@ margin-top: 3%;
  .item3 ul {
   margin: 5%;
   
+}
+.item3 h4, .item5 h4{
+  padding: 5%;
 }
 
 .cnt img{
